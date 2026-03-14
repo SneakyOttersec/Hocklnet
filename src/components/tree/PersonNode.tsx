@@ -1,5 +1,6 @@
 import type { Person } from '../../types/genealogy';
 import { getDisplayName, getBirthEvent, getDeathEvent } from '../../types/genealogy';
+import { getBirthFlag } from '../../utils/countryFlags';
 import styles from './PersonNode.module.css';
 
 interface Props {
@@ -15,6 +16,7 @@ interface Props {
 export function PersonNode({ person, x, y, width, height, onClick, variant = 'classic' }: Props) {
   const birth = getBirthEvent(person);
   const death = getDeathEvent(person);
+  const flag = getBirthFlag(person);
   const isDeceased = !!death;
 
   const birthYear = birth?.date?.year ? String(birth.date.year) : '';
@@ -54,7 +56,7 @@ export function PersonNode({ person, x, y, width, height, onClick, variant = 'cl
         textAnchor="middle"
         className={`${styles.name} ${styles[`name_${variant}`]}`}
       >
-        {getDisplayName(person)}
+        {flag && flag + ' '}{getDisplayName(person)}
       </text>
       {lifespan && (
         <text
