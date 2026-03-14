@@ -1,0 +1,643 @@
+encoding: utf-8
+gwplus
+
+fam Hocquel Alain +2000 -2005 Bages Florence
+fevt
+#marr 2000
+#div 2005
+end fevt
+beg
+- h Justin #apriv
+end
+fam Hocquel Alain +2010 Gouteix Marie-Laure #apriv
+fevt
+#marr 2010
+end fevt
+
+fam Hocquel Justin + DESAGES Charlotte 7/12/1997
+fevt
+#marr
+end fevt
+
+pevt DESAGES Charlotte
+#birt 7/12/1997
+end pevt
+
+fam Hocquel Jacques_(Jakob) + Busch Madeleine_(Magdalena)
+fevt
+#marr
+end fevt
+beg
+- h Alain 15/6/1961
+end
+
+pevt Hocquel Alain
+#birt 15/6/1961
+end pevt
+
+fam Bages Roger 0 + Delacre Colette 0 0
+fevt
+#marr
+end fevt
+beg
+- f Florence 21/3/1964
+end
+
+pevt Bages Florence
+#birt 21/3/1964
+end pevt
+
+pevt Delacre Colette
+#deat
+end pevt
+
+fam HOCKL Jean_(Johann) + KOPPENSTEIN Olga 30/11/1907 #bp Lazo,_Moldavie_(Jakobstal/Jacobsthal_,_Bessarabie) ~2001 #dp La_Roque-sur-Pernes,_84101,_Vaucluse,_Provence-Alpes-Côte_d'Azur,_France
+fevt
+#marr
+end fevt
+beg
+- h Jacques_(Jakob) Hocquel 23/11/1935 #bp Lenauheim,_,_,_Timis,_Roumanie 28/1/2019 #dp Carpentras,_84031,_Vaucluse,_Provence-Alpes-Côte_d'Azur,_France
+end
+
+pevt Hocquel Jacques_(Jakob)
+#birt 23/11/1935 #p Lenauheim,_,_,_Timis,_Roumanie
+#chgn
+note Francisation du nom HOCKL
+#deat 28/1/2019 #p Carpentras,_84031,_Vaucluse,_Provence-Alpes-Côte_d'Azur,_France
+end pevt
+
+pevt KOPPENSTEIN Olga
+#birt 30/11/1907 #p Lazo,_Moldavie_(Jakobstal/Jacobsthal_,_Bessarabie)
+#deat ~2001 #p La_Roque-sur-Pernes,_84101,_Vaucluse,_Provence-Alpes-Côte_d'Azur,_France
+end pevt
+
+fam Busch Lorenz +24/10/1927 #mp Homolitz_(Serbie) Müller Anna
+fevt
+#marr 24/10/1927 #p Homolitz_(Serbie)
+end fevt
+beg
+- f Madeleine_(Magdalena) #occu Aide_soignante 8/11/1943 #bp Omoljica_(Омољица/Homolitz)_-_Serbia_(Ex-Yougoslavie))
+end
+
+pevt Busch Madeleine_(Magdalena)
+#birt 8/11/1943 #p Omoljica_(Омољица/Homolitz)_-_Serbia_(Ex-Yougoslavie))
+end pevt
+
+fam Busch Jakob + Zechmann Anna
+fevt
+#marr
+end fevt
+beg
+- h Lorenz 10/12/1906 #bp Homolitz_(Serbie) 6/9/1968 #dp La_roques_sur_Pernes_(84)
+end
+
+pevt Busch Lorenz
+#birt 10/12/1906 #p Homolitz_(Serbie)
+#deat 6/9/1968 #p La_roques_sur_Pernes_(84)
+end pevt
+
+fam Busch Mathias #apubl ~1860 #bp Homolitz ~1912 #dp Homolitz + Durlach Theresia #apubl ~1862 ~1902
+fevt
+#marr
+end fevt
+beg
+- h Jakob #apubl 6/7/1881 #bp Homolitz_(Serbie) !6/7/1881 #pp Homolitz_(Serbie) 1916 #dp Russie
+end
+
+pevt Busch Jakob
+#birt 6/7/1881 #p Homolitz_(Serbie)
+#bapt 6/7/1881 #p Homolitz_(Serbie)
+note Parrain :  Jacobus Gleitz ?
+note Marraine : Theresia Schaller ?
+note Nom du pretre :  Josephus Kaltenbacher, ???
+#deat 1916 #p Russie
+end pevt
+
+pevt Durlach Theresia
+#birt ~1862
+#deat ~1902
+end pevt
+
+pevt Busch Mathias
+#birt ~1860 #p Homolitz
+#deat ~1912 #p Homolitz
+end pevt
+
+fam Zechmann Joseph ~1860 #bp Homolitz_(Serbie) ~1900 + Werner Barbara ~1862 #bp Homolitz_(Serbie) ~1946 #dp Knićanin_(Serbie)
+fevt
+#marr
+end fevt
+beg
+- f Anna 17/7/1887 #bp Homolitz_(Serbie) 14/2/1946 #dp Knićanin_(Serbie)
+end
+
+pevt Zechmann Anna
+#birt 17/7/1887 #p Homolitz_(Serbie)
+#deat 14/2/1946 #p Knićanin_(Serbie)
+end pevt
+
+pevt Werner Barbara
+#birt ~1862 #p Homolitz_(Serbie)
+#deat ~1946 #p Knićanin_(Serbie)
+end pevt
+
+pevt Zechmann Joseph
+#birt ~1860 #p Homolitz_(Serbie)
+#deat ~1900
+end pevt
+
+fam Müller Matthias + 1872 Franziska ~1872 ~1945 #dp Brestovac_(Serbie)
+fevt
+#marr
+end fevt
+beg
+- f Anna 26/6/1908 #bp Homolitz 0
+end
+
+pevt Müller Anna
+#birt 26/6/1908 #p Homolitz
+#deat
+end pevt
+
+pevt 1872 Franziska
+#birt ~1872
+#deat ~1945 #p Brestovac_(Serbie)
+end pevt
+
+fam Müller Georg + Theresia SCHILLI #apubl ~1832 #bp Homolitz_(Serbie) od
+fevt
+#marr
+end fevt
+beg
+- h Matthias #apubl ~1875 #bp Homolitz_(Serbie) od
+end
+
+pevt Müller Matthias
+#birt ~1875 #p Homolitz_(Serbie)
+#deat
+end pevt
+
+pevt Theresia SCHILLI
+#birt ~1832 #p Homolitz_(Serbie)
+#deat
+end pevt
+
+fam Gerich Michael #apubl 0 0 +31/1/1809 Hübusch Magdalena
+fevt
+#marr 31/1/1809
+end fevt
+fam Müller Franz +27/10/1829 #mp Homolitz_(Serbie) Hübusch Magdalena
+fevt
+#marr 27/10/1829 #p Homolitz_(Serbie)
+end fevt
+beg
+- h Georg #apubl 3/8/1830 #bp Homolitz_(Serbie) 0
+end
+
+pevt Gerich Michael
+#deat
+end pevt
+
+pevt Müller Georg
+#birt 3/8/1830 #p Homolitz_(Serbie)
+#deat
+end pevt
+
+fam Müller Johann_Georg +15/2/1804 Glass Maria_Magdalena
+fevt
+#marr 15/2/1804
+end fevt
+beg
+- h Franz #apubl 4/8/1798 #bp Homolitz_(Serbie) >1829
+end
+
+pevt Müller Franz
+#birt 4/8/1798 #p Homolitz_(Serbie)
+#deat >1829
+end pevt
+
+fam Glass Lorenz #apubl ~1749 od + ? ? #apubl 0 0
+fevt
+#marr
+end fevt
+beg
+- f Maria_Magdalena #apubl ~1776 #bp Pločica_(Serbie) 20/4/1804 #dp Homolitz_(Serbie)
+end
+
+notes Glass Lorenz
+beg
+Migration probable a  Ploschitz / Pločica
+end notes
+
+pevt Glass Maria_Magdalena
+#birt ~1776 #p Pločica_(Serbie)
+#deat 20/4/1804 #p Homolitz_(Serbie)
+end pevt
+
+pevt Glass Lorenz
+#birt ~1749
+#deat
+end pevt
+
+fam Hübusch Jakob #apubl ~1758 #bp Riedseltz,_67400,_Bas-Rhin,_Alsace,_France 23/10/1828 + Altmann Cecilia
+fevt
+#marr
+end fevt
+beg
+- f Magdalena #apubl 29/6/1790 #bp Homolitz_(Serbie) >1829
+end
+
+notes Hübusch Magdalena
+beg
+Nee HAAS
+end notes
+
+notes Hübusch Jakob
+beg
+Vient normalement de France
+end notes
+
+pevt Hübusch Magdalena
+#birt 29/6/1790 #p Homolitz_(Serbie)
+#deat >1829
+end pevt
+
+pevt Hübusch Jakob
+#birt ~1758 #p Riedseltz,_67400,_Bas-Rhin,_Alsace,_France
+#deat 23/10/1828
+end pevt
+
+fam Altmann Franz #apubl 1729 #bp Ottenschlag,_Austria 1/12/1787 + _?? Eva #apubl ~1726 #bp Ottenshall_?_(Autriche) 4/4/1789 #dp Homolitz_(Serbie)
+fevt
+#marr
+end fevt
+beg
+- f Cecilia #apubl 9/3/1769 #bp Homolitz_(Serbie) 9/3/1829 #dp Homolitz_(Serbie)
+end
+
+notes Altmann Franz
+beg
+Altmann, Franz 44 Ottenschlag/NÖ A Eva Franziska 7, Cäcilia 4 -> Homolitz en 1766
+
+La liste date de 1773 avec un age declare de 44 ans. Naissance probable en 1729
+
+https://www.banatbooks.com/VII_Grenzland_introduction.pdf , Banaters in the XII Grenz Regiment Records
+end notes
+
+pevt Altmann Cecilia
+#birt 9/3/1769 #p Homolitz_(Serbie)
+#deat 9/3/1829 #p Homolitz_(Serbie)
+end pevt
+
+pevt _?? Eva
+#birt ~1726 #p Ottenshall_?_(Autriche)
+#deat 4/4/1789 #p Homolitz_(Serbie)
+end pevt
+
+pevt Altmann Franz
+#birt 1729 #p Ottenschlag,_Austria
+#deat 1/12/1787
+end pevt
+
+fam Müller Georg.1 #apubl 1740 #bp Dürnholz_(Drnholec),_Mähren_(CZ) 0 #dp Homolitz_(Serbie) + _?? Maria_Anna #apubl 0 od #dp Homolitz_(Serbie)
+fevt
+#marr
+end fevt
+beg
+- h Johann_Georg #apubl 7/11/1771 #bp Homolitz_(Serbie) 0
+end
+
+notes Müller Johann_Georg
+beg
+Müller / Mueller
+end notes
+
+notes Müller Georg.1
+beg
+Mueller / Müller. Arrive en 1768 a Homolitz
+
+https://www.banatbooks.com/VII_Grenzland_introduction.pdf Page 23
+
+Mueller, Georg 33 Dürnholz (Drnholec),
+Mähren CZ
+Maria Anna Johann Georg 2, Lorenz 1/4, Regina 4
+end notes
+
+pevt Müller Johann_Georg
+#birt 7/11/1771 #p Homolitz_(Serbie)
+#deat
+end pevt
+
+pevt _?? Maria_Anna
+#deat #p Homolitz_(Serbie)
+end pevt
+
+pevt Müller Georg.1
+#birt 1740 #p Dürnholz_(Drnholec),_Mähren_(CZ)
+#deat #p Homolitz_(Serbie)
+end pevt
+
+fam HOCKL Johann +8/9/1904 KIEFER Maria 18/1/1876 #bp Lenauheim,_,_,_Timis,_Roumanie 4/2/1955 #dp Lenauheim,_,_,_Timis,_Roumanie
+fevt
+#marr 8/9/1904
+end fevt
+beg
+- h Jean_(Johann) 28/11/1906 #bp Lenauheim,_,_,_Timis,_Roumanie 17/8/1980 #dp La_Roque-sur-Pernes,_84101,_Vaucluse,_Provence-Alpes-Côte_d'Azur,_France
+end
+
+notes HOCKL Jean_(Johann)
+beg
+Prenom francise
+end notes
+
+pevt HOCKL Jean_(Johann)
+#birt 28/11/1906 #p Lenauheim,_,_,_Timis,_Roumanie
+#deat 17/8/1980 #p La_Roque-sur-Pernes,_84101,_Vaucluse,_Provence-Alpes-Côte_d'Azur,_France
+end pevt
+
+pevt KIEFER Maria
+#birt 18/1/1876 #p Lenauheim,_,_,_Timis,_Roumanie
+#deat 4/2/1955 #p Lenauheim,_,_,_Timis,_Roumanie
+end pevt
+
+fam HOCKL Bernhard +29/7/1849 #mp Lenauheim,_,_,_Timis,_Roumanie PFEIFFER Elisabeth ~1830 #bp Lovrin,_,_,_Timis,_Roumanie 17/1/1910
+fevt
+#marr 29/7/1849 #p Lenauheim,_,_,_Timis,_Roumanie
+end fevt
+beg
+- h Johann 6/10/1870 #bp Lenauheim,_,_,_Timis,_Roumanie 13/4/1956 #dp Lenauheim,_,_,_Timis,_Roumanie
+end
+
+pevt HOCKL Johann
+#birt 6/10/1870 #p Lenauheim,_,_,_Timis,_Roumanie
+#deat 13/4/1956 #p Lenauheim,_,_,_Timis,_Roumanie
+end pevt
+
+pevt PFEIFFER Elisabeth
+#birt ~1830 #p Lovrin,_,_,_Timis,_Roumanie
+#deat 17/1/1910
+end pevt
+
+fam HOCKL Johann.1 +14/2/1804 #mp Lenauheim,_,_,_Timis,_Roumanie FRANK Anna_Maria #apubl ~1776 #bp Lenauheim,_,_,_Timis,_Roumanie 12/8/1850 #dp Lenauheim,_,_,_Timis,_Roumanie
+fevt
+#marr 14/2/1804 #p Lenauheim,_,_,_Timis,_Roumanie
+end fevt
+beg
+- f Margarethe #apubl 24/1/1805 #bp Lenauheim,_,_,_Timis,_Roumanie 24/1/1808 #dp Lenauheim,_,_,_Timis,_Roumanie
+- f Katharina #apubl 31/12/1805 #bp Lenauheim,_,_,_Timis,_Roumanie 0
+- f Elisabeth.1 #apubl 24/10/1806 #bp Lenauheim,_,_,_Timis,_Roumanie od
+- h Philipp #apubl 8/3/1808 #bp Lenauheim,_,_,_Timis,_Roumanie od
+- h Heinrich #apubl 6/3/1810 #bp Lenauheim,_,_,_Timis,_Roumanie od
+- h Johann.4 #apubl 10/4/1811 #bp Lenauheim,_,_,_Timis,_Roumanie 30/4/1811 #dp Lenauheim,_,_,_Timis,_Roumanie
+- h Bernhard.1 #apubl 1/2/1813 #bp Lenauheim,_,_,_Timis,_Roumanie 22/3/1834
+- f Anna #apubl 28/4/1815 #bp Lenauheim,_,_,_Timis,_Roumanie od
+- f Margarethe.1 #apubl 24/10/1817 #bp Lenauheim,_,_,_Timis,_Roumanie od
+- h Bernhard #apubl 23/12/1820 12/8/1873
+- f Anna.1 #apubl ~1822 8/8/1836 #dp Lenauheim,_,_,_Timis,_Roumanie
+- h Johann.5 #apubl ~1824 #bp Lenauheim,_,_,_Timis,_Roumanie od
+- f Maria_Anna #apubl 28/7/1826 #bp Lenauheim,_,_,_Timis,_Roumanie od
+end
+fam HOCKL Johann.1 + JUNG Katharina #apubl ~1774 4/12/1802 #dp Lenauheim,_,_,_Timis,_Roumanie
+cbp Lenauheim,_,_,_Timis,_Roumanie
+fevt
+#marr
+end fevt
+beg
+- h Josef #apubl 10/6/1797 od
+- f Elisabeth #apubl 9/4/1799 0
+- h Peter #apubl 24/1/1801 0
+- f Susanna #apubl 29/11/1802 0
+end
+
+notes HOCKL Heinrich
+beg
+Etrange : Noter HECKL
+end notes
+
+pevt HOCKL Margarethe
+#birt 24/1/1805 #p Lenauheim,_,_,_Timis,_Roumanie
+#deat 24/1/1808 #p Lenauheim,_,_,_Timis,_Roumanie
+end pevt
+
+pevt HOCKL Katharina
+#birt 31/12/1805 #p Lenauheim,_,_,_Timis,_Roumanie
+#deat
+end pevt
+
+pevt HOCKL Elisabeth.1
+#birt 24/10/1806 #p Lenauheim,_,_,_Timis,_Roumanie
+#deat
+end pevt
+
+pevt HOCKL Philipp
+#birt 8/3/1808 #p Lenauheim,_,_,_Timis,_Roumanie
+#deat
+end pevt
+
+pevt HOCKL Heinrich
+#birt 6/3/1810 #p Lenauheim,_,_,_Timis,_Roumanie
+#deat
+end pevt
+
+pevt HOCKL Johann.4
+#birt 10/4/1811 #p Lenauheim,_,_,_Timis,_Roumanie
+#deat 30/4/1811 #p Lenauheim,_,_,_Timis,_Roumanie
+end pevt
+
+pevt HOCKL Bernhard.1
+#birt 1/2/1813 #p Lenauheim,_,_,_Timis,_Roumanie
+#deat 22/3/1834
+end pevt
+
+pevt HOCKL Anna
+#birt 28/4/1815 #p Lenauheim,_,_,_Timis,_Roumanie
+#deat
+end pevt
+
+pevt HOCKL Margarethe.1
+#birt 24/10/1817 #p Lenauheim,_,_,_Timis,_Roumanie
+#deat
+end pevt
+
+pevt HOCKL Bernhard
+#birt 23/12/1820
+#deat 12/8/1873
+end pevt
+
+pevt HOCKL Anna.1
+#birt ~1822
+#deat 8/8/1836 #p Lenauheim,_,_,_Timis,_Roumanie
+end pevt
+
+pevt HOCKL Johann.5
+#birt ~1824 #p Lenauheim,_,_,_Timis,_Roumanie
+#deat
+end pevt
+
+pevt HOCKL Maria_Anna
+#birt 28/7/1826 #p Lenauheim,_,_,_Timis,_Roumanie
+#deat
+end pevt
+
+pevt FRANK Anna_Maria
+#birt ~1776 #p Lenauheim,_,_,_Timis,_Roumanie
+#deat 12/8/1850 #p Lenauheim,_,_,_Timis,_Roumanie
+end pevt
+
+pevt HOCKL Josef
+#birt 10/6/1797 #p Lenauheim,_,_,_Timis,_Roumanie
+#deat
+end pevt
+
+pevt HOCKL Elisabeth
+#birt 9/4/1799 #p Lenauheim,_,_,_Timis,_Roumanie
+#deat
+end pevt
+
+pevt HOCKL Peter
+#birt 24/1/1801 #p Lenauheim,_,_,_Timis,_Roumanie
+#deat
+end pevt
+
+pevt HOCKL Susanna
+#birt 29/11/1802 #p Lenauheim,_,_,_Timis,_Roumanie
+#deat
+end pevt
+
+pevt JUNG Katharina
+#birt ~1774
+#deat 4/12/1802 #p Lenauheim,_,_,_Timis,_Roumanie
+end pevt
+
+fam HOCKL Johann.2 +26/4/1774 SEBASTIAN Anna_Maria #apubl 6/4/1753 #bp Morscheld 0
+fevt
+#marr 26/4/1774
+end fevt
+beg
+- h Johann.1 #apubl 9/1/1775 #bp Lenauheim,_,_,_Timis,_Roumanie 11/10/1845 #dp Lenauheim,_,_,_Timis,_Roumanie
+end
+
+pevt HOCKL Johann.1
+#birt 9/1/1775 #p Lenauheim,_,_,_Timis,_Roumanie
+#deat 11/10/1845 #p Lenauheim,_,_,_Timis,_Roumanie
+end pevt
+
+pevt SEBASTIAN Anna_Maria
+#birt 6/4/1753 #p Morscheld
+#deat
+end pevt
+
+fam HOCKL Mathias +28/5/1748 #mp Berghausen,_,_,_Rheinland_Pfalz,_Allemagne BEULKE Anna_Maria_Katharina #apubl 0 0
+fevt
+#marr 28/5/1748 #p Berghausen,_,_,_Rheinland_Pfalz,_Allemagne
+end fevt
+beg
+- h Johann_Rötger #apubl 27/2/1749 #bp Berghausen,_,_,_Rheinland_Pfalz,_Allemagne 0
+- h Hermann #apubl 14/11/1751 od
+- f Anna_Elisabeth #apubl 13/11/1754 #bp Berghausen,_,_,_Rheinland_Pfalz,_Allemagne 13/11/1754
+- h Johann.2 #apubl 2/9/1756 #bp Berghausen,_,_,_Rheinland_Pfalz,_Allemagne 0
+- h Johann.3 #apubl 2/9/1756 #bp Berghausen,_,_,_Rheinland_Pfalz,_Allemagne od
+- f Maria_Katharina #apubl 23/9/1759 #bp Berghausen,_,_,_Rheinland_Pfalz,_Allemagne od
+- f Anna_Maria #apubl 1764 #bp Berghausen,_,_,_Rheinland_Pfalz,_Allemagne 2/7/1766 #dp Dt-St_Peter
+- h Johann_Adam #apubl 6/2/1765 #bp Berghausen,_,_,_Rheinland_Pfalz,_Allemagne 2/7/1766 #dp Dt-St_Peter
+- f Maria_Magdalena #apubl 18/8/1767 #bp Berghausen,_,_,_Rheinland_Pfalz,_Allemagne 11/9/1767 #dp Lenauheim,_,_,_Timis,_Roumanie
+end
+
+pevt HOCKL Johann_Rötger
+#birt 27/2/1749 #p Berghausen,_,_,_Rheinland_Pfalz,_Allemagne
+#deat
+end pevt
+
+pevt HOCKL Hermann
+#birt 14/11/1751
+#deat
+end pevt
+
+pevt HOCKL Anna_Elisabeth
+#birt 13/11/1754 #p Berghausen,_,_,_Rheinland_Pfalz,_Allemagne
+#deat 13/11/1754
+end pevt
+
+pevt HOCKL Johann.2
+#birt 2/9/1756 #p Berghausen,_,_,_Rheinland_Pfalz,_Allemagne
+#deat
+end pevt
+
+pevt HOCKL Johann.3
+#birt 2/9/1756 #p Berghausen,_,_,_Rheinland_Pfalz,_Allemagne
+#deat
+end pevt
+
+pevt HOCKL Maria_Katharina
+#birt 23/9/1759 #p Berghausen,_,_,_Rheinland_Pfalz,_Allemagne
+#deat
+end pevt
+
+pevt HOCKL Anna_Maria
+#birt 1764 #p Berghausen,_,_,_Rheinland_Pfalz,_Allemagne
+#deat 2/7/1766 #p Dt-St_Peter
+end pevt
+
+pevt HOCKL Johann_Adam
+#birt 6/2/1765 #p Berghausen,_,_,_Rheinland_Pfalz,_Allemagne
+#deat 2/7/1766 #p Dt-St_Peter
+end pevt
+
+pevt HOCKL Maria_Magdalena
+#birt 18/8/1767 #p Berghausen,_,_,_Rheinland_Pfalz,_Allemagne
+#deat 11/9/1767 #p Lenauheim,_,_,_Timis,_Roumanie
+end pevt
+
+pevt BEULKE Anna_Maria_Katharina
+#deat
+end pevt
+
+fam HOCKL Anton + PIPER Anna_Maria #apubl 0 od
+fevt
+#marr
+end fevt
+beg
+- h Mathias #apubl 28/2/1717 #bp Berghausen,_,_,_Rheinland_Pfalz,_Allemagne 21/1/1774
+end
+
+pevt HOCKL Mathias
+#birt 28/2/1717 #p Berghausen,_,_,_Rheinland_Pfalz,_Allemagne
+#deat 21/1/1774
+end pevt
+
+pevt PIPER Anna_Maria
+#deat
+end pevt
+
+fam HOCKL Petrus #apubl 1665..1670 od +28/10/1689 #mp Berghausen,_,_,_Rheinland_Pfalz,_Allemagne #ms https://data.matricula-online.eu/en/deutschland/paderborn/DE\_EBAP\_65001/KB001-16-H/?pg=14 Hen??en Anna_Maria #apubl 0 od
+fevt
+#marr 28/10/1689 #p Berghausen,_,_,_Rheinland_Pfalz,_Allemagne #s https://data.matricula-online.eu/en/deutschland/paderborn/DE\_EBAP\_65001/KB001-16-H/?pg=14
+end fevt
+beg
+- h Anton #apubl 29/4/1691 #bp Berghausen,_,_,_Rheinland_Pfalz,_Allemagne od
+end
+
+notes HOCKL Anton
+beg
+Ecrit HUCKELL dans le registre
+end notes
+
+notes HOCKL Petrus
+beg
+Ecrit Huckell dans les registres
+end notes
+
+pevt HOCKL Anton
+#birt 29/4/1691 #p Berghausen,_,_,_Rheinland_Pfalz,_Allemagne
+#deat
+end pevt
+
+pevt Hen??en Anna_Maria
+#deat
+end pevt
+
+pevt HOCKL Petrus
+#birt 1665..1670
+#deat
+end pevt
+

@@ -1,0 +1,863 @@
+0 HEAD
+1 SOUR Geneanet
+2 NAME GeneWeb
+2 VERS 7.0.0
+2 CORP Geneanet
+3 ADDR https://www.geneanet.org/
+2 DATA jhockl.gwb
+1 DATE 14 MAR 2026
+2 TIME 10:06:20
+1 FILE base.ged.tmp
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+2 SOUR
+3 PAGE geneweb wiki notes: notes
+0 @I1@ INDI
+1 NAME Alain /Hocquel/
+1 SEX M
+1 BIRT
+2 DATE 15 JUN 1961
+1 FAMC @F1@
+1 FAMS @F2@
+1 FAMS @F3@
+0 @I2@ INDI
+1 NAME Florence /Bages/
+1 SEX F
+1 BIRT
+2 DATE 21 MAR 1964
+1 FAMC @F4@
+1 FAMS @F2@
+0 @I3@ INDI
+1 NAME Justin /Hocquel/
+1 SEX M
+1 FAMC @F2@
+1 FAMS @F5@
+0 @I4@ INDI
+1 NAME Charlotte /DESAGES/
+1 SEX F
+1 BIRT
+2 DATE 07 DEC 1997
+1 FAMS @F5@
+0 @I5@ INDI
+1 NAME Jacques (Jakob) /Hocquel/
+1 SEX M
+1 BIRT
+2 DATE 23 NOV 1935
+2 PLAC Lenauheim, , , Timis, Roumanie
+1 EVEN
+2 TYPE Change name
+2 NOTE Francisation du nom HOCKL
+1 DEAT
+2 DATE 28 JAN 2019
+2 PLAC Carpentras, 84031, Vaucluse, Provence-Alpes-Côte d'Azur, France
+1 FAMC @F6@
+1 FAMS @F1@
+0 @I6@ INDI
+1 NAME Madeleine (Magdalena) /Busch/
+1 SEX F
+1 BIRT
+2 DATE 08 NOV 1943
+2 PLAC Omoljica (Омољица/Homolitz) - Serbia (Ex-Yougoslavie))
+1 OCCU Aide soignante
+1 FAMC @F7@
+1 FAMS @F1@
+0 @I7@ INDI
+1 NAME Marie-Laure /Gouteix/
+1 SEX F
+1 FAMS @F3@
+0 @I8@ INDI
+1 NAME Roger /Bages/
+1 SEX M
+1 FAMS @F4@
+0 @I9@ INDI
+1 NAME Colette /Delacre/
+1 SEX F
+1 DEAT Y
+1 FAMS @F4@
+0 @I10@ INDI
+1 NAME Jean (Johann) /HOCKL/
+1 SEX M
+1 BIRT
+2 DATE 28 NOV 1906
+2 PLAC Lenauheim, , , Timis, Roumanie
+1 DEAT
+2 DATE 17 AUG 1980
+2 PLAC La Roque-sur-Pernes, 84101, Vaucluse, Provence-Alpes-Côte d'Azur, France
+1 FAMC @F8@
+1 FAMS @F6@
+1 NOTE Prenom francise
+0 @I11@ INDI
+1 NAME Olga /KOPPENSTEIN/
+1 SEX F
+1 BIRT
+2 DATE 30 NOV 1907
+2 PLAC Lazo, Moldavie (Jakobstal/Jacobsthal , Bessarabie)
+1 DEAT
+2 DATE ABT 2001
+2 PLAC La Roque-sur-Pernes, 84101, Vaucluse, Provence-Alpes-Côte d'Azur, France
+1 FAMS @F6@
+0 @I12@ INDI
+1 NAME Lorenz /Busch/
+1 SEX M
+1 BIRT
+2 DATE 10 DEC 1906
+2 PLAC Homolitz (Serbie)
+1 DEAT
+2 DATE 06 SEP 1968
+2 PLAC La roques sur Pernes (84)
+1 FAMC @F9@
+1 FAMS @F7@
+0 @I13@ INDI
+1 NAME Anna /Müller/
+1 SEX F
+1 BIRT
+2 DATE 26 JUN 1908
+2 PLAC Homolitz
+1 DEAT Y
+1 FAMC @F10@
+1 FAMS @F7@
+0 @I14@ INDI
+1 NAME Jakob /Busch/
+1 SEX M
+1 BIRT
+2 DATE 06 JUL 1881
+2 PLAC Homolitz (Serbie)
+1 BAPM
+2 DATE 06 JUL 1881
+2 PLAC Homolitz (Serbie)
+2 NOTE Parrain :  Jacobus Gleitz ?
+3 CONT Marraine : Theresia Schaller ?
+3 CONT Nom du pretre :  Josephus Kaltenbacher, ???
+1 DEAT
+2 DATE 1916
+2 PLAC Russie
+1 FAMC @F11@
+1 FAMS @F9@
+0 @I15@ INDI
+1 NAME Anna /Zechmann/
+1 SEX F
+1 BIRT
+2 DATE 17 JUL 1887
+2 PLAC Homolitz (Serbie)
+1 DEAT
+2 DATE 14 FEB 1946
+2 PLAC Knićanin (Serbie)
+1 FAMC @F12@
+1 FAMS @F9@
+0 @I16@ INDI
+1 NAME Mathias /Busch/
+1 SEX M
+1 BIRT
+2 DATE ABT 1860
+2 PLAC Homolitz
+1 DEAT
+2 DATE ABT 1912
+2 PLAC Homolitz
+1 FAMS @F11@
+0 @I17@ INDI
+1 NAME Theresia /Durlach/
+1 SEX F
+1 BIRT
+2 DATE ABT 1862
+1 DEAT
+2 DATE ABT 1902
+1 FAMS @F11@
+0 @I18@ INDI
+1 NAME Joseph /Zechmann/
+1 SEX M
+1 BIRT
+2 DATE ABT 1860
+2 PLAC Homolitz (Serbie)
+1 DEAT
+2 DATE ABT 1900
+1 FAMS @F12@
+0 @I19@ INDI
+1 NAME Barbara /Werner/
+1 SEX F
+1 BIRT
+2 DATE ABT 1862
+2 PLAC Homolitz (Serbie)
+1 DEAT
+2 DATE ABT 1946
+2 PLAC Knićanin (Serbie)
+1 FAMS @F12@
+0 @I20@ INDI
+1 NAME Matthias /Müller/
+1 SEX M
+1 BIRT
+2 DATE ABT 1875
+2 PLAC Homolitz (Serbie)
+1 DEAT Y
+1 FAMC @F13@
+1 FAMS @F10@
+0 @I21@ INDI
+1 NAME Franziska /1872/
+1 SEX F
+1 BIRT
+2 DATE ABT 1872
+1 DEAT
+2 DATE ABT 1945
+2 PLAC Brestovac (Serbie)
+1 FAMS @F10@
+0 @I22@ INDI
+1 NAME Georg /Müller/
+1 SEX M
+1 BIRT
+2 DATE 03 AUG 1830
+2 PLAC Homolitz (Serbie)
+1 DEAT Y
+1 FAMC @F14@
+1 FAMS @F13@
+0 @I23@ INDI
+1 NAME SCHILLI /Theresia/
+1 SEX F
+1 BIRT
+2 DATE ABT 1832
+2 PLAC Homolitz (Serbie)
+1 DEAT Y
+1 FAMS @F13@
+0 @I24@ INDI
+1 NAME Franz /Müller/
+1 SEX M
+1 BIRT
+2 DATE 04 AUG 1798
+2 PLAC Homolitz (Serbie)
+1 DEAT
+2 DATE AFT 1829
+1 FAMC @F15@
+1 FAMS @F14@
+0 @I25@ INDI
+1 NAME Magdalena /Hübusch/
+1 SEX F
+1 BIRT
+2 DATE 29 JUN 1790
+2 PLAC Homolitz (Serbie)
+1 DEAT
+2 DATE AFT 1829
+1 FAMC @F16@
+1 FAMS @F17@
+1 FAMS @F14@
+1 NOTE Nee HAAS
+0 @I26@ INDI
+1 NAME Michael /Gerich/
+1 SEX M
+1 DEAT Y
+1 FAMS @F17@
+0 @I27@ INDI
+1 NAME Johann Georg /Müller/
+1 SEX M
+1 BIRT
+2 DATE 07 NOV 1771
+2 PLAC Homolitz (Serbie)
+1 DEAT Y
+1 FAMC @F18@
+1 FAMS @F15@
+1 NOTE Müller / Mueller
+0 @I28@ INDI
+1 NAME Maria Magdalena /Glass/
+1 SEX F
+1 BIRT
+2 DATE ABT 1776
+2 PLAC Pločica (Serbie)
+1 DEAT
+2 DATE 20 APR 1804
+2 PLAC Homolitz (Serbie)
+1 FAMC @F19@
+1 FAMS @F15@
+0 @I29@ INDI
+1 NAME Lorenz /Glass/
+1 SEX M
+1 BIRT
+2 DATE ABT 1749
+1 DEAT Y
+1 FAMS @F19@
+1 NOTE Migration probable a  Ploschitz / Pločica
+0 @I30@ INDI
+1 NAME ? /?/
+1 SEX F
+1 DEAT Y
+1 FAMS @F19@
+0 @I31@ INDI
+1 NAME Jakob /Hübusch/
+1 SEX M
+1 BIRT
+2 DATE ABT 1758
+2 PLAC Riedseltz, 67400, Bas-Rhin, Alsace, France
+1 DEAT
+2 DATE 23 OCT 1828
+1 FAMS @F16@
+1 NOTE Vient normalement de France
+0 @I32@ INDI
+1 NAME Cecilia /Altmann/
+1 SEX F
+1 BIRT
+2 DATE 09 MAR 1769
+2 PLAC Homolitz (Serbie)
+1 DEAT
+2 DATE 09 MAR 1829
+2 PLAC Homolitz (Serbie)
+1 FAMC @F20@
+1 FAMS @F16@
+0 @I33@ INDI
+1 NAME Franz /Altmann/
+1 SEX M
+1 BIRT
+2 DATE 1729
+2 PLAC Ottenschlag, Austria
+1 DEAT
+2 DATE 01 DEC 1787
+1 FAMS @F20@
+1 NOTE Altmann, Franz 44 Ottenschlag/NÖ A Eva Franziska 7, Cäcilia 4 -> Homoli
+2 CONC tz en 1766
+2 CONT 
+2 CONT La liste date de 1773 avec un age declare de 44 ans. Naissance probable
+2 CONC  en 1729
+2 CONT 
+2 CONT https://www.banatbooks.com/VII_Grenzland_introduction.pdf , Banaters in
+2 CONC  the XII Grenz Regiment Records
+0 @I34@ INDI
+1 NAME Eva /??/
+1 SEX F
+1 BIRT
+2 DATE ABT 1726
+2 PLAC Ottenshall ? (Autriche)
+1 DEAT
+2 DATE 04 APR 1789
+2 PLAC Homolitz (Serbie)
+1 FAMS @F20@
+0 @I35@ INDI
+1 NAME Georg /Müller/
+1 SEX M
+1 BIRT
+2 DATE 1740
+2 PLAC Dürnholz (Drnholec), Mähren (CZ)
+1 DEAT
+2 PLAC Homolitz (Serbie)
+1 FAMS @F18@
+1 NOTE Mueller / Müller. Arrive en 1768 a Homolitz
+2 CONT 
+2 CONT https://www.banatbooks.com/VII_Grenzland_introduction.pdf Page 23
+2 CONT 
+2 CONT Mueller, Georg 33 Dürnholz (Drnholec),
+2 CONT Mähren CZ
+2 CONT Maria Anna Johann Georg 2, Lorenz 1/4, Regina 4
+0 @I36@ INDI
+1 NAME Maria Anna /??/
+1 SEX F
+1 DEAT
+2 PLAC Homolitz (Serbie)
+1 FAMS @F18@
+0 @I37@ INDI
+1 NAME Johann /HOCKL/
+1 SEX M
+1 BIRT
+2 DATE 06 OCT 1870
+2 PLAC Lenauheim, , , Timis, Roumanie
+1 DEAT
+2 DATE 13 APR 1956
+2 PLAC Lenauheim, , , Timis, Roumanie
+1 FAMC @F21@
+1 FAMS @F8@
+0 @I38@ INDI
+1 NAME Maria /KIEFER/
+1 SEX F
+1 BIRT
+2 DATE 18 JAN 1876
+2 PLAC Lenauheim, , , Timis, Roumanie
+1 DEAT
+2 DATE 04 FEB 1955
+2 PLAC Lenauheim, , , Timis, Roumanie
+1 FAMS @F8@
+0 @I39@ INDI
+1 NAME Bernhard /HOCKL/
+1 SEX M
+1 BIRT
+2 DATE 23 DEC 1820
+1 DEAT
+2 DATE 12 AUG 1873
+1 FAMC @F22@
+1 FAMS @F21@
+0 @I40@ INDI
+1 NAME Elisabeth /PFEIFFER/
+1 SEX F
+1 BIRT
+2 DATE ABT 1830
+2 PLAC Lovrin, , , Timis, Roumanie
+1 DEAT
+2 DATE 17 JAN 1910
+1 FAMS @F21@
+0 @I41@ INDI
+1 NAME Johann /HOCKL/
+1 SEX M
+1 BIRT
+2 DATE 09 JAN 1775
+2 PLAC Lenauheim, , , Timis, Roumanie
+1 DEAT
+2 DATE 11 OCT 1845
+2 PLAC Lenauheim, , , Timis, Roumanie
+1 FAMC @F23@
+1 FAMS @F22@
+1 FAMS @F24@
+0 @I42@ INDI
+1 NAME Anna Maria /FRANK/
+1 SEX F
+1 BIRT
+2 DATE ABT 1776
+2 PLAC Lenauheim, , , Timis, Roumanie
+1 DEAT
+2 DATE 12 AUG 1850
+2 PLAC Lenauheim, , , Timis, Roumanie
+1 FAMS @F22@
+0 @I43@ INDI
+1 NAME Johann /HOCKL/
+1 SEX M
+1 BIRT
+2 DATE 02 SEP 1756
+2 PLAC Berghausen, , , Rheinland Pfalz, Allemagne
+1 DEAT Y
+1 FAMC @F25@
+1 FAMS @F23@
+0 @I44@ INDI
+1 NAME Anna Maria /SEBASTIAN/
+1 SEX F
+1 BIRT
+2 DATE 06 APR 1753
+2 PLAC Morscheld
+1 DEAT Y
+1 FAMS @F23@
+0 @I45@ INDI
+1 NAME Mathias /HOCKL/
+1 SEX M
+1 BIRT
+2 DATE 28 FEB 1717
+2 PLAC Berghausen, , , Rheinland Pfalz, Allemagne
+1 DEAT
+2 DATE 21 JAN 1774
+1 FAMC @F26@
+1 FAMS @F25@
+0 @I46@ INDI
+1 NAME Anna Maria Katharina /BEULKE/
+1 SEX F
+1 DEAT Y
+1 FAMS @F25@
+0 @I47@ INDI
+1 NAME Anton /HOCKL/
+1 SEX M
+1 BIRT
+2 DATE 29 APR 1691
+2 PLAC Berghausen, , , Rheinland Pfalz, Allemagne
+1 DEAT Y
+1 FAMC @F27@
+1 FAMS @F26@
+1 NOTE Ecrit HUCKELL dans le registre
+0 @I48@ INDI
+1 NAME Anna Maria /PIPER/
+1 SEX F
+1 DEAT Y
+1 FAMS @F26@
+0 @I49@ INDI
+1 NAME Johann Rötger /HOCKL/
+1 SEX M
+1 BIRT
+2 DATE 27 FEB 1749
+2 PLAC Berghausen, , , Rheinland Pfalz, Allemagne
+1 DEAT Y
+1 FAMC @F25@
+0 @I50@ INDI
+1 NAME Hermann /HOCKL/
+1 SEX M
+1 BIRT
+2 DATE 14 NOV 1751
+1 DEAT Y
+1 FAMC @F25@
+0 @I51@ INDI
+1 NAME Anna Elisabeth /HOCKL/
+1 SEX F
+1 BIRT
+2 DATE 13 NOV 1754
+2 PLAC Berghausen, , , Rheinland Pfalz, Allemagne
+1 DEAT
+2 DATE 13 NOV 1754
+1 FAMC @F25@
+0 @I52@ INDI
+1 NAME Johann /HOCKL/
+1 SEX M
+1 BIRT
+2 DATE 02 SEP 1756
+2 PLAC Berghausen, , , Rheinland Pfalz, Allemagne
+1 DEAT Y
+1 FAMC @F25@
+0 @I53@ INDI
+1 NAME Maria Katharina /HOCKL/
+1 SEX F
+1 BIRT
+2 DATE 23 SEP 1759
+2 PLAC Berghausen, , , Rheinland Pfalz, Allemagne
+1 DEAT Y
+1 FAMC @F25@
+0 @I54@ INDI
+1 NAME Anna Maria /HOCKL/
+1 SEX F
+1 BIRT
+2 DATE 1764
+2 PLAC Berghausen, , , Rheinland Pfalz, Allemagne
+1 DEAT
+2 DATE 02 JUL 1766
+2 PLAC Dt-St Peter
+1 FAMC @F25@
+0 @I55@ INDI
+1 NAME Johann Adam /HOCKL/
+1 SEX M
+1 BIRT
+2 DATE 06 FEB 1765
+2 PLAC Berghausen, , , Rheinland Pfalz, Allemagne
+1 DEAT
+2 DATE 02 JUL 1766
+2 PLAC Dt-St Peter
+1 FAMC @F25@
+0 @I56@ INDI
+1 NAME Maria Magdalena /HOCKL/
+1 SEX F
+1 BIRT
+2 DATE 18 AUG 1767
+2 PLAC Berghausen, , , Rheinland Pfalz, Allemagne
+1 DEAT
+2 DATE 11 SEP 1767
+2 PLAC Lenauheim, , , Timis, Roumanie
+1 FAMC @F25@
+0 @I57@ INDI
+1 NAME Katharina /JUNG/
+1 SEX F
+1 BIRT
+2 DATE ABT 1774
+1 DEAT
+2 DATE 04 DEC 1802
+2 PLAC Lenauheim, , , Timis, Roumanie
+1 FAMS @F24@
+0 @I58@ INDI
+1 NAME Josef /HOCKL/
+1 SEX M
+1 BIRT
+2 DATE 10 JUN 1797
+2 PLAC Lenauheim, , , Timis, Roumanie
+1 DEAT Y
+1 FAMC @F24@
+0 @I59@ INDI
+1 NAME Elisabeth /HOCKL/
+1 SEX F
+1 BIRT
+2 DATE 09 APR 1799
+2 PLAC Lenauheim, , , Timis, Roumanie
+1 DEAT Y
+1 FAMC @F24@
+0 @I60@ INDI
+1 NAME Peter /HOCKL/
+1 SEX M
+1 BIRT
+2 DATE 24 JAN 1801
+2 PLAC Lenauheim, , , Timis, Roumanie
+1 DEAT Y
+1 FAMC @F24@
+0 @I61@ INDI
+1 NAME Susanna /HOCKL/
+1 SEX F
+1 BIRT
+2 DATE 29 NOV 1802
+2 PLAC Lenauheim, , , Timis, Roumanie
+1 DEAT Y
+1 FAMC @F24@
+0 @I62@ INDI
+1 NAME Margarethe /HOCKL/
+1 SEX F
+1 BIRT
+2 DATE 24 JAN 1805
+2 PLAC Lenauheim, , , Timis, Roumanie
+1 DEAT
+2 DATE 24 JAN 1808
+2 PLAC Lenauheim, , , Timis, Roumanie
+1 FAMC @F22@
+0 @I63@ INDI
+1 NAME Katharina /HOCKL/
+1 SEX F
+1 BIRT
+2 DATE 31 DEC 1805
+2 PLAC Lenauheim, , , Timis, Roumanie
+1 DEAT Y
+1 FAMC @F22@
+0 @I64@ INDI
+1 NAME Elisabeth /HOCKL/
+1 SEX F
+1 BIRT
+2 DATE 24 OCT 1806
+2 PLAC Lenauheim, , , Timis, Roumanie
+1 DEAT Y
+1 FAMC @F22@
+0 @I65@ INDI
+1 NAME Philipp /HOCKL/
+1 SEX M
+1 BIRT
+2 DATE 08 MAR 1808
+2 PLAC Lenauheim, , , Timis, Roumanie
+1 DEAT Y
+1 FAMC @F22@
+0 @I66@ INDI
+1 NAME Heinrich /HOCKL/
+1 SEX M
+1 BIRT
+2 DATE 06 MAR 1810
+2 PLAC Lenauheim, , , Timis, Roumanie
+1 DEAT Y
+1 FAMC @F22@
+1 NOTE Etrange : Noter HECKL
+0 @I67@ INDI
+1 NAME Johann /HOCKL/
+1 SEX M
+1 BIRT
+2 DATE 10 APR 1811
+2 PLAC Lenauheim, , , Timis, Roumanie
+1 DEAT
+2 DATE 30 APR 1811
+2 PLAC Lenauheim, , , Timis, Roumanie
+1 FAMC @F22@
+0 @I68@ INDI
+1 NAME Bernhard /HOCKL/
+1 SEX M
+1 BIRT
+2 DATE 01 FEB 1813
+2 PLAC Lenauheim, , , Timis, Roumanie
+1 DEAT
+2 DATE 22 MAR 1834
+1 FAMC @F22@
+0 @I69@ INDI
+1 NAME Anna /HOCKL/
+1 SEX F
+1 BIRT
+2 DATE 28 APR 1815
+2 PLAC Lenauheim, , , Timis, Roumanie
+1 DEAT Y
+1 FAMC @F22@
+0 @I70@ INDI
+1 NAME Margarethe /HOCKL/
+1 SEX F
+1 BIRT
+2 DATE 24 OCT 1817
+2 PLAC Lenauheim, , , Timis, Roumanie
+1 DEAT Y
+1 FAMC @F22@
+0 @I71@ INDI
+1 NAME Anna /HOCKL/
+1 SEX F
+1 BIRT
+2 DATE ABT 1822
+1 DEAT
+2 DATE 08 AUG 1836
+2 PLAC Lenauheim, , , Timis, Roumanie
+1 FAMC @F22@
+0 @I72@ INDI
+1 NAME Johann /HOCKL/
+1 SEX M
+1 BIRT
+2 DATE ABT 1824
+2 PLAC Lenauheim, , , Timis, Roumanie
+1 DEAT Y
+1 FAMC @F22@
+0 @I73@ INDI
+1 NAME Maria Anna /HOCKL/
+1 SEX F
+1 BIRT
+2 DATE 28 JUL 1826
+2 PLAC Lenauheim, , , Timis, Roumanie
+1 DEAT Y
+1 FAMC @F22@
+0 @I74@ INDI
+1 NAME Petrus /HOCKL/
+1 SEX M
+1 BIRT
+2 DATE BET 1665 AND 01 JAN 1670
+1 DEAT Y
+1 FAMS @F27@
+1 NOTE Ecrit Huckell dans les registres
+0 @I75@ INDI
+1 NAME Anna Maria /Hen??en/
+1 SEX F
+1 DEAT Y
+1 FAMS @F27@
+0 @F2@ FAM
+1 MARR
+2 DATE 2000
+1 DIV
+2 DATE 2005
+1 HUSB @I1@
+1 WIFE @I2@
+1 CHIL @I3@
+0 @F5@ FAM
+1 MARR Y
+1 HUSB @I3@
+1 WIFE @I4@
+0 @F1@ FAM
+1 MARR Y
+1 HUSB @I5@
+1 WIFE @I6@
+1 CHIL @I1@
+0 @F3@ FAM
+1 MARR
+2 DATE 2010
+1 HUSB @I1@
+1 WIFE @I7@
+0 @F4@ FAM
+1 MARR Y
+1 HUSB @I8@
+1 WIFE @I9@
+1 CHIL @I2@
+0 @F6@ FAM
+1 MARR Y
+1 HUSB @I10@
+1 WIFE @I11@
+1 CHIL @I5@
+0 @F7@ FAM
+1 MARR
+2 DATE 24 OCT 1927
+2 PLAC Homolitz (Serbie)
+1 HUSB @I12@
+1 WIFE @I13@
+1 CHIL @I6@
+0 @F9@ FAM
+1 MARR Y
+1 HUSB @I14@
+1 WIFE @I15@
+1 CHIL @I12@
+0 @F11@ FAM
+1 MARR Y
+1 HUSB @I16@
+1 WIFE @I17@
+1 CHIL @I14@
+0 @F12@ FAM
+1 MARR Y
+1 HUSB @I18@
+1 WIFE @I19@
+1 CHIL @I15@
+0 @F10@ FAM
+1 MARR Y
+1 HUSB @I20@
+1 WIFE @I21@
+1 CHIL @I13@
+0 @F13@ FAM
+1 MARR Y
+1 HUSB @I22@
+1 WIFE @I23@
+1 CHIL @I20@
+0 @F14@ FAM
+1 MARR
+2 DATE 27 OCT 1829
+2 PLAC Homolitz (Serbie)
+1 HUSB @I24@
+1 WIFE @I25@
+1 CHIL @I22@
+0 @F17@ FAM
+1 MARR
+2 DATE 31 JAN 1809
+1 HUSB @I26@
+1 WIFE @I25@
+0 @F15@ FAM
+1 MARR
+2 DATE 15 FEB 1804
+1 HUSB @I27@
+1 WIFE @I28@
+1 CHIL @I24@
+0 @F19@ FAM
+1 MARR Y
+1 HUSB @I29@
+1 WIFE @I30@
+1 CHIL @I28@
+0 @F16@ FAM
+1 MARR Y
+1 HUSB @I31@
+1 WIFE @I32@
+1 CHIL @I25@
+0 @F20@ FAM
+1 MARR Y
+1 HUSB @I33@
+1 WIFE @I34@
+1 CHIL @I32@
+0 @F18@ FAM
+1 MARR Y
+1 HUSB @I35@
+1 WIFE @I36@
+1 CHIL @I27@
+0 @F8@ FAM
+1 MARR
+2 DATE 08 SEP 1904
+1 HUSB @I37@
+1 WIFE @I38@
+1 CHIL @I10@
+0 @F21@ FAM
+1 MARR
+2 DATE 29 JUL 1849
+2 PLAC Lenauheim, , , Timis, Roumanie
+1 HUSB @I39@
+1 WIFE @I40@
+1 CHIL @I37@
+0 @F22@ FAM
+1 MARR
+2 DATE 14 FEB 1804
+2 PLAC Lenauheim, , , Timis, Roumanie
+1 HUSB @I41@
+1 WIFE @I42@
+1 CHIL @I62@
+1 CHIL @I63@
+1 CHIL @I64@
+1 CHIL @I65@
+1 CHIL @I66@
+1 CHIL @I67@
+1 CHIL @I68@
+1 CHIL @I69@
+1 CHIL @I70@
+1 CHIL @I39@
+1 CHIL @I71@
+1 CHIL @I72@
+1 CHIL @I73@
+0 @F23@ FAM
+1 MARR
+2 DATE 26 APR 1774
+1 HUSB @I43@
+1 WIFE @I44@
+1 CHIL @I41@
+0 @F25@ FAM
+1 MARR
+2 DATE 28 MAY 1748
+2 PLAC Berghausen, , , Rheinland Pfalz, Allemagne
+1 HUSB @I45@
+1 WIFE @I46@
+1 CHIL @I49@
+1 CHIL @I50@
+1 CHIL @I51@
+1 CHIL @I43@
+1 CHIL @I52@
+1 CHIL @I53@
+1 CHIL @I54@
+1 CHIL @I55@
+1 CHIL @I56@
+0 @F26@ FAM
+1 MARR Y
+1 HUSB @I47@
+1 WIFE @I48@
+1 CHIL @I45@
+0 @F24@ FAM
+1 MARR Y
+1 HUSB @I41@
+1 WIFE @I57@
+1 CHIL @I58@
+1 CHIL @I59@
+1 CHIL @I60@
+1 CHIL @I61@
+0 @F27@ FAM
+1 MARR
+2 DATE 28 OCT 1689
+2 PLAC Berghausen, , , Rheinland Pfalz, Allemagne
+2 SOUR https://data.matricula-online.eu/en/deutschland/paderborn/DE_EBAP_65001/KB001-16-H/?pg=14
+1 HUSB @I74@
+1 WIFE @I75@
+1 CHIL @I47@
+0 TRLR

@@ -1,0 +1,72 @@
+.node {
+  transition: transform 0.1s;
+}
+
+.node:hover {
+  filter: brightness(0.95);
+}
+
+.card {
+  fill: #ffffff;
+  stroke: #e0e0e0;
+  stroke-width: 1;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.08));
+}
+
+.card.male { stroke: #4a90d9; }
+.card.female { stroke: #d94a7a; }
+
+/* Classic */
+.card_classic { fill: #ffffff; }
+.name_classic { font-family: 'Inter', sans-serif; font-size: 13px; font-weight: 600; fill: #22272a; }
+.dates_classic { font-family: 'Inter', sans-serif; font-size: 11px; fill: #666; }
+.place_classic { font-family: 'Inter', sans-serif; font-size: 10px; fill: #999; }
+
+/* Parchment */
+.card_parchment { fill: #F5E6C8; stroke: #8B7355; stroke-width: 1.5; }
+.name_parchment { font-family: 'Playfair Display', serif; font-size: 13px; font-weight: 600; fill: #3B2414; }
+.dates_parchment { font-family: 'Playfair Display', serif; font-size: 11px; fill: #5C4033; }
+.place_parchment { font-family: 'Playfair Display', serif; font-size: 10px; fill: #8B7355; }
+
+/* Natural */
+.card_natural { fill: #E8F5E9; stroke: #4CAF50; stroke-width: 1.5; rx: 20; }
+.name_natural { font-family: 'Patrick Hand', cursive, sans-serif; font-size: 14px; fill: #2E7D32; }
+.dates_natural { font-family: 'Patrick Hand', cursive, sans-serif; font-size: 12px; fill: #558B2F; }
+.place_natural { font-family: 'Patrick Hand', cursive, sans-serif; font-size: 10px; fill: #7CB342; }
+
+/* Victorian */
+.card_victorian { fill: #1a1a2e; stroke: #c9a84c; stroke-width: 2; }
+.name_victorian { font-family: 'Playfair Display', serif; font-size: 13px; font-weight: 700; fill: #c9a84c; }
+.dates_victorian { font-family: 'Playfair Display', serif; font-size: 11px; fill: #a88a3d; }
+.place_victorian { font-family: 'Playfair Display', serif; font-size: 10px; fill: #8B7355; }
+
+/* Hand-drawn */
+.card_handdrawn { fill: #fef9ef; stroke: #555; stroke-width: 1.5; }
+.name_handdrawn { font-family: 'Caveat', cursive, sans-serif; font-size: 16px; fill: #333; }
+.dates_handdrawn { font-family: 'Caveat', cursive, sans-serif; font-size: 13px; fill: #666; }
+.place_handdrawn { font-family: 'Caveat', cursive, sans-serif; font-size: 11px; fill: #888; }
+
+.sexDot {
+  stroke: #fff;
+  stroke-width: 1;
+}
+
+.dotMale {
+  fill: #4a90d9;
+}
+
+.dotFemale {
+  fill: #d94a7a;
+}
+
+.name {
+  pointer-events: none;
+}
+
+.dates {
+  pointer-events: none;
+}
+
+.place {
+  pointer-events: none;
+}

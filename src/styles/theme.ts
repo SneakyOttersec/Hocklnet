@@ -1,0 +1,30 @@
+export const theme = {
+  colors: {
+    background: '#fafafa',
+    text: '#22272a',
+    accent: '#cc2a41',
+    accentHover: '#a8223a',
+    secondary: '#666666',
+    border: '#e0e0e0',
+    cardBg: '#ffffff',
+    success: '#28a745',
+    warning: '#ffc107',
+    danger: '#dc3545',
+    info: '#17a2b8',
+  },
+  fonts: {
+    heading: "'Playfair Display', Georgia, serif",
+    body: "'Inter', -apple-system, sans-serif",
+  },
+  spacing: {
+    xs: '4px',
+    sm: '8px',
+    md: '16px',
+    lg: '24px',
+    xl: '32px',
+    xxl: '48px',
+  },
+  borderRadius: '8px',
+  shadow: '0 2px 8px rgba(0, 0, 0, 0.08)',
+  shadowLg: '0 4px 16px rgba(0, 0, 0, 0.12)',
+};

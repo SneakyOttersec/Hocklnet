@@ -1,0 +1,75 @@
+.dashboard {
+  padding: 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.pageTitle {
+  font-size: 1.75rem;
+  margin-bottom: 24px;
+}
+
+.emptyState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 48px;
+}
+
+.emptyText {
+  color: #666;
+  font-size: 1rem;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.statsRow {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.row {
+  display: flex;
+  gap: 24px;
+}
+
+.colWide {
+  flex: 2;
+}
+
+.colNarrow {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  border: 1px solid #eee;
+}
+
+.cardTitle {
+  font-size: 1rem;
+  margin-bottom: 16px;
+  color: #22272a;
+}
+
+.importSection {
+  margin-top: 8px;
+}
+
+@media (max-width: 900px) {
+  .row {
+    flex-direction: column;
+  }
+}

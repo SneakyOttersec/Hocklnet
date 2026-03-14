@@ -1,0 +1,164 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: #fff;
+  border-radius: 12px;
+  padding: 0;
+  max-width: 600px;
+  width: 90%;
+  max-height: 85vh;
+  overflow-y: auto;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #999;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.closeBtn:hover {
+  color: #333;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 24px 24px 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #cc2a41, #e06070);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.name {
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.birthName {
+  font-size: 0.85rem;
+  color: #666;
+  font-style: italic;
+}
+
+.section {
+  padding: 16px 24px;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.sectionTitle {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #999;
+  margin-bottom: 10px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+.event {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 10px;
+}
+
+.eventLabel {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #cc2a41;
+  text-transform: capitalize;
+}
+
+.place {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.notes {
+  font-size: 0.8rem;
+  color: #888;
+  font-style: italic;
+}
+
+.notesText {
+  font-size: 0.9rem;
+  white-space: pre-wrap;
+  color: #555;
+  line-height: 1.5;
+}
+
+.personLink {
+  display: block;
+  padding: 6px 0;
+  background: none;
+  border: none;
+  color: #cc2a41;
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-align: left;
+}
+
+.personLink:hover {
+  text-decoration: underline;
+}
+
+.marriageItem {
+  margin-bottom: 10px;
+}
+
+.marriageDate {
+  display: block;
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.footer {
+  padding: 16px 24px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btnAccent {
+  padding: 8px 16px;
+  background: #cc2a41;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.btnAccent:hover {
+  background: #a8223a;
+}
