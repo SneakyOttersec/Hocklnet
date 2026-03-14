@@ -1,0 +1,1 @@
+import{t as e}from"./index-B9ToCjeR.js";import{n as t,r as n,t as r}from"./TreeRenderer-B7wkdobo.js";var i=e();function a({database:e,rootPersonId:a,onPersonClick:o}){let s=n(e,a);return(0,i.jsx)(t,{width:s.width,height:s.height,children:(0,i.jsx)(r,{layout:s,onPersonClick:o,variant:`classic`})})}export{a as default};
