@@ -32,7 +32,7 @@ export function Dashboard() {
             <div className={styles.colWide}>
               <div className={styles.card}>
                 <h3 className={styles.cardTitle}>{t('dashboard.geoMap')}</h3>
-                <GeoMap places={stats.uniquePlaces} />
+                <GeoMap places={stats.uniquePlaces.map(p => p.place)} placeCounts={stats.uniquePlaces} />
               </div>
             </div>
             <div className={styles.colNarrow}>

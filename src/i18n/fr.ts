@@ -26,6 +26,8 @@ export default {
       birthsKnown: 'Naissances connues',
       deathsKnown: 'Décès connus',
       placesKnown: 'Lieux connus',
+      mapPins: 'Épingles',
+      mapDensity: 'Densité',
     },
     tree: {
       title: 'Arbre Généalogique',

@@ -14,7 +14,7 @@ export interface TreeStats {
   birthsKnown: number;
   deathsKnown: number;
   placesKnown: number;
-  uniquePlaces: GenePlace[];
+  uniquePlaces: { place: GenePlace; count: number }[];
 }
 
 function getYear(event: GeneEvent | undefined): number | null {
@@ -79,7 +79,7 @@ export function useTreeStats(): TreeStats {
     let birthsKnown = 0;
     let deathsKnown = 0;
     let placesKnown = 0;
-    const placeSet = new Map<string, GenePlace>();
+    const placeMap = new Map<string, { place: GenePlace; count: number }>();
 
     for (const person of persons.values()) {
       if (person.sex === 'M') maleCount++;
@@ -93,8 +93,11 @@ export function useTreeStats(): TreeStats {
         if (event.place?.original) {
           placesKnown++;
           const key = event.place.original.toLowerCase();
-          if (!placeSet.has(key)) {
-            placeSet.set(key, event.place);
+          const existing = placeMap.get(key);
+          if (existing) {
+            existing.count++;
+          } else {
+            placeMap.set(key, { place: event.place, count: 1 });
           }
         }
 
@@ -129,7 +132,7 @@ export function useTreeStats(): TreeStats {
       birthsKnown,
       deathsKnown,
       placesKnown,
-      uniquePlaces: Array.from(placeSet.values()),
+      uniquePlaces: Array.from(placeMap.values()),
     };
   }, [database, state.rootPersonId]);
 }

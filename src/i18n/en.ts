@@ -26,6 +26,8 @@ export default {
       birthsKnown: 'Births known',
       deathsKnown: 'Deaths known',
       placesKnown: 'Places known',
+      mapPins: 'Pins',
+      mapDensity: 'Density',
     },
     tree: {
       title: 'Family Tree',

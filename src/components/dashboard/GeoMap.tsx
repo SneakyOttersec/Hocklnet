@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import type { GenePlace } from '../../types/genealogy';
 import styles from './GeoMap.module.css';
 
 interface Props {
   places: GenePlace[];
+  placeCounts: { place: GenePlace; count: number }[];
 }
 
 // Known place coordinates for the Hocquel family locations
@@ -38,15 +40,21 @@ function findCoords(place: GenePlace): [number, number] | null {
   return null;
 }
 
-export function GeoMap({ places }: Props) {
+type MapMode = 'pins' | 'density';
+
+export function GeoMap({ places, placeCounts }: Props) {
+  const { t } = useTranslation();
   const [mapReady, setMapReady] = useState(false);
   const [L, setL] = useState<typeof import('leaflet') | null>(null);
+  const [mode, setMode] = useState<MapMode>('pins');
 
   useEffect(() => {
-    // Dynamically import leaflet
     import('leaflet').then((leaflet) => {
-      setL(leaflet.default || leaflet);
-      setMapReady(true);
+      // Load leaflet.heat plugin — it attaches L.heatLayer as a side-effect
+      import('leaflet.heat' as string).then(() => {
+        setL(leaflet.default || leaflet);
+        setMapReady(true);
+      });
     });
   }, []);
 
@@ -77,20 +85,53 @@ export function GeoMap({ places }: Props) {
 
     const bounds: [number, number][] = [];
 
-    const accentIcon = L.divIcon({
-      className: styles.marker,
-      html: '<div style="width:12px;height:12px;background:#cc2a41;border-radius:50%;border:2px solid #fff;box-shadow:0 2px 4px rgba(0,0,0,0.3)"></div>',
-      iconSize: [12, 12],
-      iconAnchor: [6, 6],
-    });
+    if (mode === 'pins') {
+      const accentIcon = L.divIcon({
+        className: styles.marker,
+        html: '<div style="width:12px;height:12px;background:#cc2a41;border-radius:50%;border:2px solid #fff;box-shadow:0 2px 4px rgba(0,0,0,0.3)"></div>',
+        iconSize: [12, 12],
+        iconAnchor: [6, 6],
+      });
 
-    for (const place of places) {
-      const coords = findCoords(place);
-      if (coords) {
-        L.marker(coords, { icon: accentIcon })
-          .bindPopup(place.original)
-          .addTo(map);
-        bounds.push(coords);
+      for (const place of places) {
+        const coords = findCoords(place);
+        if (coords) {
+          L.marker(coords, { icon: accentIcon })
+            .bindPopup(place.original)
+            .addTo(map);
+          bounds.push(coords);
+        }
+      }
+    } else {
+      // Density / heatmap mode
+      const heatPoints: [number, number, number][] = [];
+
+      for (const { place, count } of placeCounts) {
+        const coords = findCoords(place);
+        if (coords) {
+          heatPoints.push([coords[0], coords[1], count]);
+          bounds.push(coords);
+        }
+      }
+
+      if (heatPoints.length > 0) {
+        // leaflet.heat adds L.heatLayer via side-effect
+        const heatLayer = (L as unknown as {
+          heatLayer: (
+            points: [number, number, number][],
+            opts: Record<string, unknown>,
+          ) => import('leaflet').Layer;
+        }).heatLayer(heatPoints, {
+          radius: 30,
+          blur: 20,
+          maxZoom: 10,
+          gradient: {
+            0.0: '#00ff00',
+            0.5: '#ffff00',
+            1.0: '#ff0000',
+          },
+        });
+        heatLayer.addTo(map);
       }
     }
 
@@ -101,11 +142,25 @@ export function GeoMap({ places }: Props) {
     return () => {
       map.remove();
     };
-  }, [mapReady, L, places]);
+  }, [mapReady, L, places, placeCounts, mode]);
 
   return (
     <>
       <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+      <div className={styles.toggleRow}>
+        <button
+          className={`${styles.toggleBtn} ${mode === 'pins' ? styles.toggleActive : ''}`}
+          onClick={() => setMode('pins')}
+        >
+          {t('dashboard.mapPins')}
+        </button>
+        <button
+          className={`${styles.toggleBtn} ${mode === 'density' ? styles.toggleActive : ''}`}
+          onClick={() => setMode('density')}
+        >
+          {t('dashboard.mapDensity')}
+        </button>
+      </div>
       <div id="geo-map" className={styles.map} />
     </>
   );
